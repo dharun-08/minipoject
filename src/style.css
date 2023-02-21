@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Itim&family=Poppins:wght@600&display=swap');
+
 *{
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 .site-title{
-    font-size: 3rem;
+    font-size: 2rem;
+    font-weight:bolder;
+    font-family: 'Dancing Script', cursive;
 }
 body{
     margin: 0;

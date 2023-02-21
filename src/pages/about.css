@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Itim&family=Poppins:wght@600&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.container img{
+    width: 100vw;
+}
+.container{
+    position: relative;
+  text-align: center;
+  color: white;
+  width: 90vw;
+}
+
+.centered {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 10%;
+  right: 10 ;
+  padding: 20px;
+  background: rgba(155, 152, 152, 0.532);
+  backdrop-filter: saturate(180%) blur(5px);
+  border-radius: 5%;
+  width: 50%;
+  height: 80%;
+}
+.centered h1{
+    font-size: 2rem;
+    color: orangered;
+}
+.centered p{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    font-style: italic;
+}
+.footer{
+ color: black;
+ 
+}
+.btn-cont{
+  font-family: 'Poppins', sans-serif;
+  padding: 15px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 20%;
+  cursor: pointer;
+}
